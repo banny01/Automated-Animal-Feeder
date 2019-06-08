@@ -1,0 +1,3 @@
+Black - GND
+Red - 5v
+Yellow - 7

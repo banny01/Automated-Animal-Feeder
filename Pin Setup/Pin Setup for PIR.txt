@@ -1,0 +1,3 @@
+GND - GND
+VCC - 5v
+OUT - 2
