@@ -57,7 +57,7 @@ void loop() {
     //delay(100);// turn LED ON
     if (pirState == LOW) {
       // we have just turned on
-      Serial.println("Motion detected!");
+      Serial.println("Motion detected");
       //rfid();
       pirState = HIGH;
       //Serial.println(val);
@@ -173,9 +173,7 @@ void servoclose() {
     myservo.write(pos);
     //delay(15);
   }
-  /*//myservo.attach(7);
-    myservo.write(100);
-    //myservo.detach();*/
+
 }
 
 void servoopen() {
@@ -183,7 +181,5 @@ void servoopen() {
     myservo.write(pos);
     //delay(15);
   }
-  /*//myservo.attach(7);
-    myservo.write(-100);
-    //myservo.detach();*/
+
 }
